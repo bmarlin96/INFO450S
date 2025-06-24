@@ -33,7 +33,7 @@ st.markdown(
 
 
 ###Here we just want to introduce you to streamlit
-st.title("Badgers Rock )
+st.title("Badgers Rock" )
 ###Bring in and clean the data
 df=pd.read_csv('badgers_dataset.csv')
 df=df.dropna()
